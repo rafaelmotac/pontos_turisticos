@@ -1,0 +1,23 @@
+[
+  {
+    "model": "enderecos.Endereco",
+    "pk": 1,
+    "fields": {
+      "linha1": "Aveninda Beira Mar",
+      "linha2": "",
+      "cidade": "Fortaleza",
+      "estado": "Ceará",
+      "pais": "Brasil"
+    }
+  },
+  {
+    "model": "core.PontoTuristico",
+    "pk": 1,
+    "fields": {
+      "nome": "Beira Mar",
+      "descricao": "Orla da praia de iracema",
+      "aprovado": true,
+      "endereco": 1
+    }
+  }
+]
