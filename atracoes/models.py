@@ -8,7 +8,7 @@ class Atracao(models.Model):
     descricao = models.TextField()
     horario_fun = models.TextField()
     idade_minima = models.IntegerField()
-    ponto_turistico = models.ForeignKey(PontoTuristico, on_delete=models.CASCADE)
+    ponto_turistico = models.ForeignKey(PontoTuristico, related_name='atracoes', on_delete=models.CASCADE)
 
     def __str__(self):
         return self.nome
