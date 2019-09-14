@@ -7,4 +7,4 @@ class PontoTuristicoSerializer(serializers.ModelSerializer):
     atracoes = serializers.StringRelatedField(many=True)
     class Meta:
         model = PontoTuristico
-        fields = ['id', 'nome', 'descricao', 'atracoes']
+        fields = ['id', 'nome', 'descricao', 'aprovado', 'atracoes']
